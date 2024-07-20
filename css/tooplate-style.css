@@ -407,9 +407,16 @@ p:last-child {
     justify-content: right;
     width: 600px;
   }
+ 
 }
 
 @media (max-width: 767px) {
+  h3 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 14px;
+  }
   .container {
     max-width: 450px;
   }
